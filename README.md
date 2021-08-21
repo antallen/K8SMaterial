@@ -8,3 +8,5 @@
 ## 參考文獻
 + [Kubernetes: by example](https://www.kubernetesbyexample.com/en/concept/pods)
 + [Kubernetes Concepts and Architecture](https://platform9.com/blog/kubernetes-enterprise-chapter-2-kubernetes-architecture-concepts/)
++ [Kubernetes的30天養成計劃](https://ithelp.ithome.com.tw/users/20120468/ironman/2525)
++ [Markdown文件](https://markdown.tw/)
