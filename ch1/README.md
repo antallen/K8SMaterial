@@ -54,3 +54,12 @@
 + Kubernetes 支援 Ingress 高層級抽象，掌管外部使用者如何存取在叢集內服務！
 + Ingress 控制器允許使用相同的負載均衡器在相同的 IP 地址下公開多個服務。
 
+### 網路連結
++ Kubernetes 有一個獨特的網路模型，用於叢集範圍的 pod-to-pod 網路。
++ 容器網路接口(Container Network Interface (CNI))使用簡單的覆蓋網路(如: Flannel)，通過使用流量封裝(如: VXLAN)，從 pod 中隱藏底層網路！
++ 在 Pod 內，容器可以不受任何限制地進行通訊。
++ Pod 中的容器存在於同一網路命名空間中，並共享一個 IP。亦即，容器可以通過本地主機進行通訊。
++ Pod 可以使用可跨叢集連結的 Pod IP 地址相互通訊。
++ 從 pod 遷移到 Service，或從外部源遷移到 Service，需要通過 kube-proxy。
+
+### Kubernetes 中的永久存儲
