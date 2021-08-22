@@ -24,4 +24,8 @@
 ### Cluster Nodes 叢集節點概述
 
 ![Kubernetes 節點類別圖](3.jpg)
-  + 
+  + 節點(Nodes)是運行容器並由主節點(masters)管理的機器。
+  + Kubelet 是 Kubernetes 最主要和最重要的控制器。
+    + 負責驅動容器執行層，通常是 Docker。
+
+### 
