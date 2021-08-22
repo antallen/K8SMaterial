@@ -17,7 +17,8 @@
   + Controller Manager 執行核心控制功能，監視叢集狀況以及驅動狀態朝向期望的狀態進行！
   + Cloud Controller Manager 整合可用區域的最佳化支援、虚擬機、存儲服務、以各式網路服務，如：DNS、路由、負載平衡，進入每一種公有雲！
   + Scheduler 負責將容器跨節點排進叢集內！
-  
+
+ 
 + Cluster Nodes 叢集節點
 
 ![Kubernetes 節點類別圖](3.jpg)
