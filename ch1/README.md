@@ -8,6 +8,8 @@
 
 ![Kubernetes 架構概覽](1.jpg)
   
+### 控制面概述
+
 + 控制面(control plane)是維護所有 Kubernetes 物件記錄的系統。
 
 ![Kubernetes 控制面類別圖](2.jpg)
@@ -18,8 +20,8 @@
   + Cloud Controller Manager 整合可用區域的最佳化支援、虚擬機、存儲服務、以各式網路服務，如：DNS、路由、負載平衡，進入每一種公有雲！
   + Scheduler 負責將容器跨節點排進叢集內！
 
- 
-+ Cluster Nodes 叢集節點
+
+### Cluster Nodes 叢集節點概述
 
 ![Kubernetes 節點類別圖](3.jpg)
   + 
