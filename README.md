@@ -10,3 +10,5 @@
 + [Kubernetes Concepts and Architecture](https://platform9.com/blog/kubernetes-enterprise-chapter-2-kubernetes-architecture-concepts/)
 + [Kubernetes的30天養成計劃](https://ithelp.ithome.com.tw/users/20120468/ironman/2525)
 + [Markdown文件](https://markdown.tw/)
++ [Kubernetes Handbook](https://jimmysong.io/kubernetes-handbook/)
++ [《Kubernetes 加固指南》中文版](https://jimmysong.io/kubernetes-hardening-guidance/)
