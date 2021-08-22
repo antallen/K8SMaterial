@@ -8,7 +8,9 @@
 
 ![Kubernetes 架構概覽](1.jpg)
   
-### 控制面概述
++ Kubernetes 基本的Object有四種，分別為Pod、Service、Volume、Namespace!
+
+### 控制面(Control Plane)概述
 
 + 控制面(control plane)是維護所有 Kubernetes 物件記錄的系統。
 
@@ -21,7 +23,7 @@
   + Scheduler 負責將容器跨節點排進叢集內！
 
 
-### Cluster Nodes 叢集節點概述
+### 叢集節點(Cluster Nodes)概述
 
 ![Kubernetes 節點類別圖](3.jpg)
   + 節點(Nodes)是運行容器並由主節點(masters)管理的機器。
@@ -39,4 +41,16 @@
   + Pod 可自動平行化擴展、滾動式更新以及測試佈署！
 
 #### Pod 類型
-+ 
++ ReplicaSet: 預設相對簡單的類型。
++ Deployment: 一種通過 ReplicaSets 管理 Pod 的宣告方式！包括回滾和滾動更新機制。
++ DaemonSet: 一種確保每個節點都運行一個 Pod 實例的方法。
++ StatefulSet: 用於管理必須持久化或維護狀態的 Pod
++ Job and CronJob: 一次性或按計劃運行週期性工作。
+
+### Service
++ Service 是 Kubernetes 配置代理以將流量轉發到一組 Pod 的方式。
++ Service 使用選擇器(或標籤)來定義哪些 Pod 使用哪些服務！
++ 動態分配使得發布新版本或向服務添加 Pod 變得非常容易。
++ Kubernetes 支援 Ingress 高層級抽象，掌管外部使用者如何存取在叢集內服務！
++ Ingress 控制器允許使用相同的負載均衡器在相同的 IP 地址下公開多個服務。
+
