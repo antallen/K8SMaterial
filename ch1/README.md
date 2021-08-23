@@ -63,3 +63,14 @@
 + 從 pod 遷移到 Service，或從外部源遷移到 Service，需要通過 kube-proxy。
 
 ### Kubernetes 中的永久存儲
+
+![Kubernetes 永久卷冊宣告和存儲種類](5.jpg)
++ Kubernetes 使用卷冊儲存概念！
++ Kubernetes 有多種儲存類型，這些儲存類型可以在一個 Pod 內混合、匹配使用！
++ Pod 中的儲存空間可以被 Pod 中的任何容器所消耗。
++ PersistentVolumes (PV)與現有儲存資源相關，通常由管理員提供。
++ 對於每個 pod，PersistentVolumeClaim 在命名空間內發出儲存消耗請求。
++ StorageClasses是一個抽象層，用於區分底層儲存的品質。
+
+### Kubernetes 中的發現與發佈服務
+
