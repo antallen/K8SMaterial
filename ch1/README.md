@@ -74,3 +74,22 @@
 
 ### Kubernetes 中的發現與發佈服務
 
+![Kubernetes 服務分類](6.jpg)
++ 發現服務是健康的 Kubernetes 環境的關鍵部分，Kubernetes 嚴重依賴其整合型的 DNS 服務來達成！
++ Kube-DNS 和 CoreDNS 為服務和相關聯的 Pod， 創建、更新和刪除 DNS 記錄！
++ Kubernetes 服務的 DNS 記錄，例如：
+  ```bash
+  service.namespace.svc.cluster.local
+  ```
++ 一個 Pod 會有一個 DNS 記錄，例如:
+  ```bash
+  10.32.0.125.namespace.pod.cluster.local
+  ```
++ 有四種不同的服務類型:
+  + ClusterIP: 僅在內部 IP 上公開服務。
+  + NodePort: 在特定端口的每個節點的 IP 上公開服務。
+  + LoadBalancer: 使用雲提供商的負載均衡器在外部公開服務。
+  + ExternalName: 只會在 DNS 中映射 CNAME 記錄。
+
+### Namespaces, Labels, and Annotations(命名空間、標籤和註釋)
++ 
