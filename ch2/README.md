@@ -11,4 +11,4 @@
 + [Install and Set Up kubectl on Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
 + [Install and Set Up kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 + [Install and Set Up kubectl on macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
-+ [How to install Kubernetes on Windows 10 ](https://dev.to/devcrafter91/how-to-install-kubernetes-on-windows-10-55b6)
++ [How to install Kubernetes on Windows 10](https://dev.to/devcrafter91/how-to-install-kubernetes-on-windows-10-55b6)
