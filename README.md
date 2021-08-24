@@ -2,8 +2,8 @@
 + 本文件為 Kubernetes 的學習記錄，不會寫太多詳細的說明
 + 本文件儘量以實作為主，方便初學者進行學習與練習
 ## 章節目錄
-+ [Ch1: Kuternets 基本結構認知](ch1/README.md)
-+ [Ch2: Kuternets 安裝方法](ch2/README.md)
++ [Ch1: Kubernets 基本結構認知](ch1/README.md)
++ [Ch2: Kubernets 安裝方法](ch2/README.md)
 
 ## 參考文獻
 + [Kubernetes: by example](https://www.kubernetesbyexample.com/en/concept/pods)
