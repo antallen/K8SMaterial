@@ -92,4 +92,16 @@
   + ExternalName: 只會在 DNS 中映射 CNAME 記錄。
 
 ### Namespaces, Labels, and Annotations(命名空間、標籤和註釋)
-+ 
++ Namespaces(命名空間)是物理叢集中的虛擬叢集。
+  + 旨在為多個團隊、用戶和項目提供一個幾乎獨立的工作環境，並通過限制團隊可以看到和訪問的 Kubernetes 對象來防止團隊互相妨礙。
++ Labels(標籤)區分單個命名空間內的資源。
+  + 通常用於描述發布狀態(穩定、測試)、環境(開發、測試、生產)、應用程式層(前端、後端)或客戶標識。
++ Annotations(註釋)是一種向對象添加任意非標識原數據或封包的方法。
+
+### Kubernetes 工具和客戶端
++ Kubeadm 引導一個叢集。
+  + 旨在為新用戶提供一種構建叢集的簡單方法！
++ Kubectl 是一種用於與現有叢集交互的工具。
++ Minikube 是一個可以輕鬆在本地運行 Kubernetes 的工具。
++ 圖形儀表板 Kube Dashboard 是一個通用的 Web 前端，可以快速獲得給定叢集的映像檔。
+  + 作為叢集本身的一個 Pod 運行。
