@@ -12,3 +12,9 @@
 + [Markdown文件](https://markdown.tw/)
 + [Kubernetes Handbook](https://jimmysong.io/kubernetes-handbook/)
 + [《Kubernetes 加固指南》中文版](https://jimmysong.io/kubernetes-hardening-guidance/)
++ https://github.com/easzlab/kubeasz
++ https://webcache.googleusercontent.com/search?q=cache:S5FXrjmp2TEJ:https://k2r2bai.com/2018/09/12/kubernetes/deploy/kube-ansible/+&cd=3&hl=zh-TW&ct=clnk&gl=tw&client=firefox-b-e
++ https://github.com/kairen/kube-ansible
++ https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands?fbclid=IwAR1IH-CL3aF35m3IS6DyBrpWCeARzxUkFaTiqxuF_ICTi91jHfgEqO4bnUQ#-em-secret-docker-registry-em-
++ https://jimmysong.io/kubernetes-handbook/concepts/pod-state-and-lifecycle.html
++ https://ithelp.ithome.com.tw/articles/10227983
